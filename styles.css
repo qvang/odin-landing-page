@@ -150,3 +150,29 @@ q {
     color: #F9FAF8;
     padding: 25px;
 }
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 1000px;
+    padding: 20px 300px;
+    border-radius: 10px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+#banner {
+    border: 2px white solid;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: auto;
+}
