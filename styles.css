@@ -48,7 +48,7 @@ a {
 .placeholder-box {
     width: 500px;
     height: 225px;
-    background-color: darkgray;
+    background-color: #6d747d;
     color: white;
     display: flex;
     justify-content: center;
@@ -84,4 +84,30 @@ h2 {
     font-weight: 700;
     font-size: 16px;
     border: none;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px #3882F6 solid;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+figure {
+    width: 150px;
+    text-align: center;
+    color: #4b5563;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
 }
