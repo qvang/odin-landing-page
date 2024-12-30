@@ -87,6 +87,7 @@ h2 {
     font-weight: 700;
     font-size: 16px;
     border: none;
+    flex-shrink: 0;
 }
 
 h3 {
@@ -113,6 +114,7 @@ figure {
 .image-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 q {
